@@ -1,0 +1,24 @@
+Obiecte:
+
+1. Cities
+2. Client
+3. Country
+4. Dates
+5. EmployeeDetails
+6. Hotels
+7. Promo
+8. Reservation
+
+Interogari:
+
+        System.out.println("1. Afiseaza clientii.");
+        System.out.println("2. Afiseaza angajatii.");
+        System.out.println("3. Afiseaza hoteluri.");
+        System.out.println("4. Afiseaza sejururi.");
+        System.out.println("5. Afiseaza hoteluri de N stele.");
+        System.out.println("6. Afiseaza tarile disponibile si orasele.");
+        System.out.println("7. Afiseaza oferte la un pret mai mic decat N lei.");
+        System.out.println("8. Adauga rezervare.");
+        System.out.println("9. Modifica rezervare.");
+        System.out.println("10. Sterge rezervare.");
+        System.out.println("11. Adauga client.");
