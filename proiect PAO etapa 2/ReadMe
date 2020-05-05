@@ -1,6 +1,6 @@
 - Pentru etapa a doua, am creat cate un fisier csv pentru fiecare clasa (se gasesc in files).
 - In Services am adaugat doua servicii singleton generice pentru citirea si scrierea din fisiere (ReadService si WriteService)
 - In Services am adaugat si un serviciu de audit, care scrie in audit.csv ce actiune s-a executat si timestamp-ul (in Main.java
-la fiecare optiune aleasa din meniu se scrie in csv)
+la fiecare optiune aleasa din meniu se scrie in csv); scrierea se realizeaza cu ajutorul serviciului WriteService
 - In Main.java la pornirea programului se incarca in array-uri datele din fisier utilizand ReadService (pentru fiecare clasa)
 - La adaugarea de noi elemente in array-uri se modifica csv-ul cu ajutorul WriteService, care face append la noile date in fisier
