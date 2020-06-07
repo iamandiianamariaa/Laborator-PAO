@@ -1,0 +1,12 @@
+Pentru etapa a 3-a, am realizat o conexiune in MySql pe localhost cu username si parola "host", pe care am adaugat-o in clasa
+DataBase Connection din package-ul connection. Apoi, pentru clasele ClientDetails, Hotels, Promo si Reservation am facut cate 
+un repository in package-ul persistance, unde am facut functii pentru fiecare dintre operatiile din SQL: INSERT, SELECT,UPDATE,
+DELETE. Pentru fiecare clasa am creat cate un tabel cu campurile specifice in MySql. De asemenea, am modificat serviciile 
+pentru cele 4 clase, devenind singleton, am pastrat functia de display, dar am adaugat functii in care sunt apelate operatiile
+din SQL.
+
+
+In main, pentru toate celelalte clase in afara de cele de mai sus, am pastrat serviciile de scriere si citire in/din fisiere 
+CSV. Pentru clasele ClientDetails, Hotels, Promo si Reservation, citirea datelor se face din baza de date. Am modificat meniul
+cu optiunile, adaugand cateva in plus, in functiile de operatiile SQL folosite. Am pastrat, de asemenea, serviciul de audit.
+Afisarea se face in continuare pe ecran.
